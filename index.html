@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Ply Planet</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .hero {
+        background-color: #000;
+        color: #fff;
+        padding: 80px 0;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+
+      .hero p {
+        font-style: italic;
+        font-size: 1.5rem;
+      }
+
+      .hero-text {
+        margin-top: 40px;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: #f6dc62;
+        color: #000;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 1rem;
+        margin-top: 20px;
+      }
+
+      .btn:hover {
+        background-color: #f6dc62;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero flex justify-center">
+      <div class="container">
+        <!-- Logo -->
+        <div>
+          <img
+            src="./images/logo.jpeg"
+            alt="Premium Ply Planet"
+            class="w-24 h-auto mx-auto"
+          />
+        </div>
+        <h1>Premium Ply Planet</h1>
+        <p class="hero-subtitle">Design With Dignity</p>
+        <div class="hero-text">
+          <p class="mb-4">
+            Welcome to Premium Ply Planet, your destination for top-quality
+            plywood for interior decor. Our products are designed with elegance
+            and sustainability in mind, making your spaces more beautiful and
+            environmentally friendly.
+          </p>
+          <a class="btn" href="#products">Check Our Products</a>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section -->
+    <section class="bg-[#b9bbc6] py-10">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-black-900 text-center mb-8">
+          Our <span class="text-[#f6dc62]">Products</span>
+        </h2>
+        <!-- Product Card 1 -->
+        <div
+          class="flex flex-col md:flex-row rounded-lg overflow-hidden shadow-md mb-8"
+          id="products"
+        >
+          <div class="md:w-3/5 p-6">
+            <h2 class="text-2xl font-bold mb-4">MR PLYWOOD</h2>
+            <p class="mb-4">
+              High-quality plywood with fireproof and scratch-resistant
+              features. Durable and reliable for interior decor.
+            </p>
+            <ul>
+              <li>FIREPROOF</li>
+              <li>DURABLE</li>
+              <li>SCRATCH PROOF</li>
+            </ul>
+          </div>
+          <div class="md:w-2/5">
+            <img
+              src="./images/mr.jpeg"
+              alt="MR Plywood"
+              class="w-full h-auto"
+            />
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div
+          class="flex flex-col md:flex-row rounded-lg overflow-hidden shadow-md mb-8"
+        >
+          <div class="md:w-2/5">
+            <img
+              src="./images/bwp.jpeg"
+              alt="BWP Plywood"
+              class="w-full h-auto"
+            />
+          </div>
+          <div class="md:w-3/5 p-6">
+            <h2 class="text-2xl font-bold mb-4">BWP PLYWOOD</h2>
+            <p class="mb-4">
+              Waterproof and cost-effective plywood designed for easy
+              workability. Perfect for all your interior decor needs.
+            </p>
+            <ul>
+              <li>WATERPROOF</li>
+              <li>WORKABILITY</li>
+              <li>COST EFFECTIVE</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div
+          class="flex flex-col md:flex-row rounded-lg overflow-hidden shadow-md mb-8"
+        >
+          <div class="md:w-3/5 p-6">
+            <h2 class="text-2xl font-bold mb-4">BWR PLYWOOD</h2>
+            <p class="mb-4">
+              Premium grade plywood made from renewable timber sources. Ensures
+              consistency of production and supports global expansion.
+            </p>
+            <ul>
+              <li>RENEWABLE TIMBER</li>
+              <li>CONSISTENCY OF PRODUCTION</li>
+              <li>GLOBAL EXPANSION</li>
+            </ul>
+          </div>
+          <div class="md:w-2/5">
+            <img
+              src="./images/bwr.jpeg"
+              alt="BWR Plywood"
+              class="w-full h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="bg-gradient-to-r from-red-900 to-red-700 py-10">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-white text-center mb-8">Our Team</h2>
+        <div class="flex flex-wrap justify-center gap-3">
+          <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/woman.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Ishika</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/woman.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Piyali</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/woman.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Soumakshi</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/man.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Ajay</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          
+          </div>
+          <div class="flex flex-wrap justify-center gap-3">
+            <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/woman.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Amrita</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/woman.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Moulisri</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          <div class="text-center flex flex-col items-cener  w-40 p-4">
+            <img
+              src="./images/man.png"
+              alt="Team Member 1"
+              class="rounded-full mb-2 mx-auto"
+            />
+            <p class="text-white text-lg font-bold">Aakash</p>
+            <div
+              class="h-1 bg-yellow-300 rounded mt-2 mb-4 mx-auto"
+              style="width: 50px"
+            ></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Price Section -->
+    <section class="bg-[#b9bbc6] py-10">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-8">Pricing</h2>
+        <div class="flex flex-col md:flex-row justify-center">
+          <div
+            class="md:w-1/3 bg-white rounded-lg shadow-md p-8 m-4 text-center"
+          >
+            <img
+              src="./images/price1.jpeg"
+              alt="Product 1"
+              class="mx-auto mb-4 w-24 h-24 rounded-full"
+            />
+            <p class="text-gray-800 text-xl font-bold mb-4">
+              Rs. 24-114 /Sqft.
+            </p>
+            <p class="text-gray-800 text-lg">Thickness: 4mm-19mm</p>
+          </div>
+          <div
+            class="md:w-1/3 bg-white rounded-lg shadow-md p-8 m-4 text-center"
+          >
+            <img
+              src="./images/price2.jpeg"
+              alt="Product 2"
+              class="mx-auto mb-4 w-24 h-24 rounded-full"
+            />
+            <p class="text-gray-800 text-xl font-bold mb-4">
+              Rs. 120-174 /Sqft.
+            </p>
+            <p class="text-gray-800 text-lg">Thickness: 20mm-29mm</p>
+          </div>
+          <div
+            class="md:w-1/3 bg-white rounded-lg shadow-md p-8 m-4 text-center"
+          >
+            <img
+              src="./images/price3.jpeg"
+              alt="Product 3"
+              class="mx-auto mb-4 w-24 h-24 rounded-full"
+            />
+            <p class="text-gray-800 text-xl font-bold mb-4">
+              Rs. 180-240 /Sqft.
+            </p>
+            <p class="text-gray-800 text-lg">Thickness: 30mm-40mm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-black text-white py-6">
+      <div class="container mx-auto text-center">
+        <p class="text-lg">
+          &copy; 2023 Premium Ply Planet. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
